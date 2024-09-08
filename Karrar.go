@@ -66,7 +66,7 @@ func main() {
 	fmt.Scan(&phone)
 
 	var repeatCount int
-	fmt.Print("\033[01;31m[\033[01;32m+\033[01;31m] \033[01;32mEnter Number sms/call : \033[00;36m")
+	fmt.Print("\033[01;31m[\033[01;32m+\033[01;31m] \033[01;32mEnter Number sms : \033[00;36m")
 	fmt.Scan(&repeatCount)
 
 	ch := make(chan int)
